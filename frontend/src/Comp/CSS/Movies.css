@@ -1,0 +1,29 @@
+.search{
+    width: 300px;
+    padding: 2rem 8rem;
+    
+}
+#movies{
+    background-color:#343a40;
+}
+.searchbar{
+    display: flex;
+}
+.searchlist{
+    display: flex;
+   list-style: none;
+   font-weight: 600;
+   font-size: 1.3rem;
+   column-gap: 1rem;
+   padding: 0.4rem 10rem;
+}
+.genre a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition:0.3s ease-in-out ;
+}
+.genre a:hover{
+    color: rgb(34, 158, 247);
+}

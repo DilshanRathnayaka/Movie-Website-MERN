@@ -1,0 +1,26 @@
+#form{
+    display: flex;
+}
+.login-form{
+    align-items: center;
+    justify-content: center;
+    width: 550px; 
+    padding: 4rem;
+   padding-top: 1rem;
+}
+.img{
+    width: 900px;
+    height: 500px;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.p{
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #fff;
+}
+.login-form-button{
+    width: 420px;
+}

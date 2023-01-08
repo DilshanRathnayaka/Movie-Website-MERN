@@ -1,0 +1,63 @@
+#home {
+    background-color: #343a40;
+}
+
+.img1 {
+    width: 1500px;
+    height: 500px;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 2rem;
+    justify-content: center;
+    position: relative;
+}
+
+.Card {
+    padding-left: 12rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    
+
+}
+
+.card1:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.6);
+
+}
+
+.cardimage {
+    width: 100px;
+    height: 280px;
+   
+}
+
+.meta {
+  
+    display: flex;
+    padding-top: 0.6rem;
+    column-gap: 3rem;
+    font-size: 0.8rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.movieroute {
+    text-decoration: none;
+}
+
+.card1 {
+    background-color: #141415;
+    border: #eff0f2;
+    color: #fff;
+    width: 250px;
+    height: 400px;
+}

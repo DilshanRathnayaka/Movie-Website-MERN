@@ -1,0 +1,32 @@
+#footer{
+    display: flex;
+    padding: 30px 50px;
+    background-color:#1b2430 ;
+    color: #fff;
+   position: relative;
+}
+#footer li{
+    list-style: none;
+    padding: 0 40px;
+    position: relative;
+}
+#footer li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition:0.3s ease-in-out ;
+}
+#footer li a:hover{
+    color: rgb(34, 158, 247);
+}
+#footer li a:hover::after,
+#footer li a.hover::after{
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: rgb(34, 158, 247);
+    position: absolute;
+    bottom: -4px;
+    left: 50px;
+}
